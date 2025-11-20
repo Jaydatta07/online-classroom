@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { login } from "../store/AuthSlice"; // reuse login to simulate registration
+import { login } from "../../store/AuthSlice"; // reuse login to simulate registration
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 

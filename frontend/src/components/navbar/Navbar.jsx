@@ -2,7 +2,7 @@ import React, { useState,useEffect,useRef } from "react";
 import { Link } from "react-router-dom";
 import { IoChevronDown, IoChevronUp } from "react-icons/io5"; // icons
 import HeaderBar from "./HeaderBar";
-import Logout from "../../pages/Logout";
+import Logout from "../auth/Logout";
 
 const Navbar = () => {
 
@@ -35,7 +35,7 @@ const Navbar = () => {
 
           {/* nav buttons */}
           <Link
-            to="/login"
+            to="/stream"
             className="px-1 py-2 text-indigo-600 hover:text-black transition"
           >
             Pricing
@@ -87,6 +87,12 @@ const Navbar = () => {
             className="px-4 py-2 border border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white transition"
           >
             Login
+          </Link>
+          <Link
+            to="/dashboard"
+            className="px-4 py-2 border border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white transition"
+          >
+            dashboard
           </Link>
           <Link
             to="/signup"

@@ -1,5 +1,5 @@
 import React from "react";
-import "../index.css"; // animations defined here
+import "../../index.css"; // animations defined here
 
 const HeroSection = () => {
   const images = [

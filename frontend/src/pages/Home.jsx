@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
-import HeroSection from "./HeroSection";
-import InfoSection from "./InfoSection";
-import FeatureHighlight from "./FeatureHighlight";
+import HeroSection from "../components/home/HeroSection";
+import InfoSection from "../components/home/InfoSection";
+import FeatureHighlight from "../components/home/FeatureHighlight";
 
 const Home = () => {
   return (
